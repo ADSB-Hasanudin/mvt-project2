@@ -1,29 +1,61 @@
-Step 1: Check Current Environment
-Step 2: Install/Setup PostgreSQL + PostGIS
-2a. Install PostgreSQL (if not installed)
-2b. Install PostGIS
-2c. Create Database and User
-2d. Test Database Connection
-Step 3: Create Project Structure
-mvt-project2/
-├── api/
-├── assets/
-├── config/
-├── data/
-└── lib/
-Step 4: Install PHP Extensions (if needed)
-Step 5: Create Configuration File
-Step 6: Setup Composer Dependencies
-Step 7: Create the PHP MVT API classes
-7a. Create Database Connection Class
-7b. Create MVT Tile Generator Class
-7c. Create Data Manager Class
-Step 8: Build the tile server
-8a. Create Tile Server API
-8b. Create Data Management API
-8c. Create Main API Router
-Step 9: Create the frontend interface
-Step 10: Import Malaysian sample data
+<p align="center"><a href="" target="_blank"><img src="https://asiadebut.group/assets/images/adsblogo.svg" width="200" alt="ADSB Logo"></a></p>
+
+<p align="center">
+<a href=""><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<!--a href=""><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href=""><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href=""><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a!-->
+</p>
+
+## Steps Required
+
+Lorem Ipsum :
+
+- Step 1: Check Current Environment
+- Step 2: Install/Setup PostgreSQL + PostGIS
+  - 2a. Install PostgreSQL (if not installed)
+  - 2b. Install PostGIS
+  - 2c. Create Database and User
+  - 2d. Test Database Connection
+- Step 3: Create Project Structure
+	- mvt-project2/
+	- ├── api/
+	- ├── assets/
+	- ├── config/
+	- ├── data/
+	- └── lib/
+- Step 4: Install PHP Extensions (if needed)
+- Step 5: Create Configuration File
+- Step 6: Setup Composer Dependencies
+- Step 7: Create the PHP MVT API classes
+	- 7a. Create Database Connection Class
+ 	- 7b. Create MVT Tile Generator Class
+ 	- 7c. Create Data Manager Class
+- Step 8: Build the tile server
+	- 8a. Create Tile Server API
+	- 8b. Create Data Management API
+	- 8c. Create Main API Router
+- Step 9: Create the frontend interface
+- Step 10: Import Malaysian sample data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $ tree mvt-project2 || ls -la mvt-project2
 ├── api
